@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Delius', Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 120px; /* Prevents content from being hidden under fixed navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BEE0E0;
+}
+
+/* ----- Navbar Styling ----- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    background-color: #5F8F90;
+    font-family: 'Sour Gummy', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0 20px;
+    transition: background-color 0.3s ease;}
+
+#logo_link {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 1.8em;
+    color: white;
+    margin: 0;
+    flex-grow: 1;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    background-color: #88293E;
+    color: white;
+}
+
+/* ----- Main Content Styling ----- */
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Hero Image */
+.hero-img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Hero Text */
+h1.question {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 2.2em;
+    color: black;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+/* Paragraph */
+.hero-text {
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Button */
+/* Container for the Cute BD Image + Text */
+.bd-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items in the flex container */
+    gap: 30px; /* Space between the image and text */
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Cute BD Image */
+.cute-BD {
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0; /* Prevents shrinking */
+}
+
+/* Text Content */
+.text-content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Paragraph */
+.text-content p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.get-started {
+    display: inline-block;
+    background-color: #CAD0DF;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #2D333F;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.get-started:hover {
+    background-color: #5F8F90;
+    color: white;
+}
+
+
+/* ----- Footer Styling ----- */
+footer {
+    background-color: #5F8F90;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-links div {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}

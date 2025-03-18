@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic Moves Page</title>
-
-    <link type="text/css" rel="stylesheet" href="styles/basic.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Smooch+Sans:wght@100..900&display=swap");
-    </style>
+    <title>Home Page</title>
+    <link type="text/css" rel="stylesheet" href="style/index.css" />
   </head>
   <body>
+    <!-- Navbar -->
     <div class="container">
       <header>
         <nav>
           <a id="logo_link" href="index.html">
             <img class="logo" src="images/rollins_logo.png" alt="logo" />
           </a>
+          <h1>BD-Bud</h1>
           <a href="index.html">Home</a>
           <a href="#">Page 2</a>
           <a href="#">Purpose</a>
@@ -24,8 +22,52 @@
       </header>
     </div>
 
+    <!-- Main Content -->
     <main>
-      
+      <img
+        class="hero-img"
+        src="images/rollins-hero-img.jpg"
+        alt="Hero Image"
+      />
+
+      <h1 class="question">
+        Ever wonder what that cute little sprout in your garden is called?
+      </h1>
+      <!-- Section: Cute BD Image + Paragraph + Button -->
+      <div class="bd-container">
+        <img
+          class="cute-BD"
+          src="images/rollins-cuteBD.jpg"
+          alt="Cute BD Image"
+        />
+
+        <div class="text-content">
+          <p>
+            Or maybe you spotted a flower on your walk and just had to know its
+            name? BD-Bud is here to help! Think of us as your friendly plant
+            whisperer, right in your pocket. Just snap a pic (or pick one from
+            our garden gallery!) and let BD-Bud work its magic. We'll tell you
+            all about your new green friend, so you can learn and grow together!
+          </p>
+          <a href="#" class="get-started">Try it Now!</a>
+        </div>
+      </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <h2>My Other Project Links!</h2>
+        <p>&copy; 2025 BD-Bud. All rights reserved.</p>
+
+        <div class="footer-links">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script/index.js"></script>
   </body>
 </html>
