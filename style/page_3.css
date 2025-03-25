@@ -1,0 +1,45 @@
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 30px;
+}
+
+.hero-img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 300px;
+}
+
+.hero-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.get-started {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#hopes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 1fr;
+    gap: 30px;
+}
+
+#dreams {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+}
+
+.text-content {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.cute-BD {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
