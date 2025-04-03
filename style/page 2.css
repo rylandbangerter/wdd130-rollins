@@ -16,3 +16,29 @@ nav {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     padding: 0 20px;
     transition: background-color 0.3s ease;}
+
+
+/* --Input Items -- */
+h1{
+    text-align: center;
+}
+
+#image_search{
+    background-color: #88293E;
+    color: #f0f0f0;
+    padding: 10px 50px 10px 50px;
+    float: left;
+}
+
+#image_upload{
+    background-color: #88293E;
+    color: #f0f0f0;
+    padding: 10px 50px 10px 50px;
+    float: right;
+}
+
+#img_up{
+    background-color: #88293E;
+    color: #f0f0f0;
+    padding: 10px 50px 10px 50px;
+}
