@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style/index.css" />
     <link type="text/css" rel="stylesheet" href="style/page 2.css" />
-    <title>Document</title>
+    <title>Picture Search</title>
 </head>
 <body>
     <!--Ryland Bangerter Nav code, you made a wonderful nav bar (:-->
@@ -21,10 +21,53 @@
           <a href="page_3.html">Purpose</a>
           </nav>
         </header>
-      </div>
+    </div>
       
-    <h1>Select Your Method</h1>
-    <h1>Image Upload</h1>
-    <h1>Image Search/Selector Bar</h1>
+    <div class="organize">
+      <h1>Select Your Method</h1>
+      <div id="image_search">
+          <form>
+            <input type="radio" name="Image Search"  value="image_search">
+            <label for="image_search">Image Search</label>
+          </form>
+      </div>    
+      <div id="image_upload">
+        <form>
+            <input type="radio" name="Image Search"  value="image_upload">
+            <label for="image_upload">Image Upload</label>
+          </form>
+      </div>
+          
+      <h1>Image Upload</h1>
+      
+      <form id="img_up">
+            <label for="image_upload">Image Upload</label>
+            <input type="text">
+            <input type="submit" value="Submit">
+      </form> 
+      <h1>Image Search/Selector Bar</h1>
+      <form>
+          <input type="text" id="img_search">
+      </form>
+    </div>
+    <img src="/images/flower-daisy.jpg" alt="Daisy">
+    <img src="/images/flower-orchid.jpg" alt="Orchid">
+    <img src="/images/flower-violet.jpg" alt="Violet">
+
+    <footer>
+        <div class="footer-content">
+          <h2>My Other Project Links!</h2>
+          <p>&copy; 2025 BD-Bud. All rights reserved.</p>
+  
+          <div class="footer-links">
+            <div>
+              <a
+                href="https://rol24002.github.io/wdd131/final-site/site-plan-ta.html#">Site Plan</a>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+    </footer>
 </body>
 </html>
